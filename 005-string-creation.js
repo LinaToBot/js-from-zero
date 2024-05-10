@@ -1,4 +1,4 @@
-// String creation
+// STRING CREATION
 const firstOption = "Simple quotation marks"; // with this  ' '
 const secondOption = "Simple quotation marks";
 const thirdOption = `Simple quotation marks`;
@@ -39,3 +39,52 @@ const myHobbies = "My hobbies are: ".concat(
   "."
 );
 console.log(myHobbies); // My hobbies are: reading, walking and dancing.
+
+// ESCAPE CHARACTERS
+
+// const whatDoIDo = 'I'm a developer '
+// the previous line show you a error because we need close the  quotation marks
+
+// 1. Alternative escape
+const alternativeEscape = "I'm a developer";
+
+// 2. Backslash
+const backslashEscape = "I'm a developer"; // with with this  ' ' insted of "" and a blackslash (\) before ('m)
+
+// 3. Templete Literals
+const templateLiteralsEscape = `I'm a developer`;
+
+// LONG STRINGS CREATION
+/*
+This is just a example
+of how long string 
+can be writing 
+*/
+
+const paragraph =
+  "This is just a example\n" + "of how long string\n" + "can be writing.";
+
+console.log(paragraph);
+// This is just a example
+// of how long string
+// can be writing
+
+const paragraph2 =
+  "This is just the second example\n\
+of how long string\n\
+can be writing.";
+console.log(paragraph2);
+// This is just the second example
+// of how long string
+// can be writing
+
+const paragraph3 = `This is just the third example
+of how long string
+can be writing.`;
+console.log(paragraph3);
+// This is just the third example
+// of how long string
+// can be writing.
+
+// When we use "", '' or `` in the variables they named as STRING LITERALS
+// and when we obtain the string in the return that string or strings are called STRING VALUES
