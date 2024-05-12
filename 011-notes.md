@@ -1,4 +1,4 @@
-# Compound multiplication operator
+# Compound multiplication operator \*=
 
 The "compound multiplication operator".It is a type of compound assignment operator that combines
 the multiplication operator "\*" the assignment operator "=".
@@ -8,7 +8,7 @@ the variable with the result. Whether you multiply a number or concatenate strin
 
 let x = 5;
 
-x \*= 2; // this is equivalent to: x = x \* 2;
+x \*= 2; // this is equivalent to: x = x \* 2
 
 console.log(x); // 10
 
