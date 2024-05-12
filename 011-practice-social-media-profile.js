@@ -31,7 +31,7 @@ if (isInMexicoCity) {
   personalPresentation += " and I'm living here.";
 }
 
-// Print the personal presentation
+// Print the personal presentation just to check
 console.log(personalPresentation);
 
 personalPresentation += `I love practice ${
@@ -49,5 +49,5 @@ Finally, my favorite book is ${
 }, and my favorite dishes are: ${favoriteFood.join(", ")}
 `;
 
-// Print the personal presentation
+// 5. Print the personal presentation
 console.log(personalPresentation);
