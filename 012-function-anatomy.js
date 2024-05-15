@@ -29,3 +29,11 @@ const finalPrice = calculateDiscountedPrice(originalPrice, discountPercentage);
 console.log("Original price: $" + originalPrice);
 console.log("Discount: " + discountPercentage + "%");
 console.log("Price with discount: $" + finalPrice);
+
+// if you wish you could write functions with a space
+//between the name and the parenthesis or not:
+
+// function name () {} or
+// function name() {}
+
+// just be consistent in your code.
